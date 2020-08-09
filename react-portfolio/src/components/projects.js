@@ -1,14 +1,26 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 class Projects extends Component {
 
     render() {
         return(
 
-            <div>
+            <div className="projects-background">
 
             <div className="projects-grid">
+
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#ffff', height: '176px', background: 'url(https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/sound_levitation_resize_md.jpg) center / cover'}}>Open Sound</CardTitle>
+                <CardText>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</CardText>
+                <CardActions border>
+                    <Button colored href="https://github.com/morenogomes/project_2" target="_blank">GitHub</Button>
+                    <Button colored href="https://stark-woodland-75959.herokuapp.com/app" target="_blank">Live Demo</Button>
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                    <IconButton name="share" />
+                </CardMenu>
+            </Card>
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#ffff', height: '176px', background: 'url(https://www.maytech.net/wp-content/uploads/2018/12/password-945x627.jpg) center / cover'}}>Password Generator</CardTitle>
@@ -46,6 +58,10 @@ class Projects extends Component {
                 </CardMenu>
             </Card>
 
+            </div>
+
+            <div className="projects-grid">
+
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#ffff', height: '176px', background: 'url(https://www.formula1.com/content/dam/fom-website/manual/Misc/2019-Races/Spain2019/Weather%20Spain.jpg) center / cover'}}>Weather Dashboard</CardTitle>
                 <CardText>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</CardText>
@@ -57,10 +73,6 @@ class Projects extends Component {
                     <IconButton name="share" />
                 </CardMenu>
             </Card>
-
-            </div>
-
-            <div className="projects-grid">
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#ffff', height: '176px', background: 'url(https://www.securitymagazine.com/ext/resources/SEC/2018/January/Top-12-Practices-Secure-Coding-Security-Magazine.jpg) center / cover'}}>Readme Generator</CardTitle>
@@ -98,12 +110,52 @@ class Projects extends Component {
                 </CardMenu>
             </Card>
 
+            </div>
+
+            <div className="projects-grid">
+
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#black', height: '176px', background: 'url(https://blog.bonus.ly/hubfs/state-of-employee-engagement-2019-featured-1.png) center / cover'}}>Employee Tracker</CardTitle>
                 <CardText>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</CardText>
                 <CardActions border>
                     <Button colored href="https://github.com/dghazi12/davidaghazi12.github.io" target="_blank">GitHub</Button>
                     <Button colored href="https://github.com/dghazi12/davidaghazi12.github.io/blob/master/images/EmployeeTracker.gif" target="_blank">Demo</Button>
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                    <IconButton name="share" />
+                </CardMenu>
+            </Card>
+
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#black', height: '176px', background: 'url(https://github.com/dghazi12/davidaghazi13.github.io/blob/master/public/assests/img/burger.jpg?raw=true) center / cover'}}>Eat-Da-Burger</CardTitle>
+                <CardText>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</CardText>
+                <CardActions border>
+                    <Button colored href="https://github.com/dghazi12/davidaghazi13.github.io" target="_blank">GitHub</Button>
+                    <Button colored href="https://ghazi-burger-logger.herokuapp.com/" target="_blank">Live Demo</Button>
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                    <IconButton name="share" />
+                </CardMenu>
+            </Card>
+
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#ffff', height: '176px', background: 'url(https://img.washingtonpost.com/rf/image_480w/2010-2019/WashingtonPost/2017/06/16/Others/Images/2017-06-15/iStock-542197824.JPG?uuid=kd9zIlHmEee3Tg0nhdMIPQ) center / cover'}}>Workout Tracker</CardTitle>
+                <CardText>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</CardText>
+                <CardActions border>
+                    <Button colored href="https://github.com/dghazi12/davidaghazi17.github.io" target="_blank">GitHub</Button>
+                    <Button colored href="https://ghazi-workout-tracker.herokuapp.com/" target="_blank">Live Demo</Button>
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                    <IconButton name="share" />
+                </CardMenu>
+            </Card>
+
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#ffff', height: '176px', background: 'url(https://v4n4a9g5.rocketcdn.me/wp-content/uploads/Budget.jpg) center / cover'}}>Budget Trackers</CardTitle>
+                <CardText>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</CardText>
+                <CardActions border>
+                    <Button colored href="https://github.com/dghazi12/davidaghazi18.github.io" target="_blank">GitHub</Button>
+                    <Button colored href="https://ghazi-budget-tracker.herokuapp.com/" target="_blank">Live Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton name="share" />
@@ -121,112 +173,3 @@ class Projects extends Component {
 }
 
 export default Projects;
-
-
-
-
-
-
-
-
-
-// class Projects extends Component {
-
-//     constructor(props){
-//         super(props);
-//         this.state = { activeTab: 0 };
-//     }
-
-//     toggleCategories(){
-//         if(this.state.activeTab === 0){
-//             return(
-
-                // <div className="projects-grid">
-
-                // <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                //     <CardTitle style={{color: '#black', height: '176px', background: 'url(https://riverplacecapital.com/wp-content/uploads/2019/10/sky2-1280x720.jpg) center / cover'}}>React Projects #1</CardTitle>
-                //     <CardText>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</CardText>
-                //     <CardActions border>
-                //         <Button colored>GitHub</Button>
-                //         <Button colored>LiveDemo</Button>
-                //     </CardActions>
-                //     <CardMenu style={{color: '#fff'}}>
-                //         <IconButton name="share" />
-                //     </CardMenu>
-                // </Card>
-
-                // <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                //     <CardTitle style={{color: '#black', height: '176px', background: 'url(https://riverplacecapital.com/wp-content/uploads/2019/10/sky2-1280x720.jpg) center / cover'}}>React Projects #1</CardTitle>
-                //     <CardText>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</CardText>
-                //     <CardActions border>
-                //         <Button colored>GitHub</Button>
-                //         <Button colored>LiveDemo</Button>
-                //     </CardActions>
-                //     <CardMenu style={{color: '#fff'}}>
-                //         <IconButton name="share" />
-                //     </CardMenu>
-                // </Card>
-
-                // <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                //     <CardTitle style={{color: '#black', height: '176px', background: 'url(https://riverplacecapital.com/wp-content/uploads/2019/10/sky2-1280x720.jpg) center / cover'}}>React Projects #1</CardTitle>
-                //     <CardText>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</CardText>
-                //     <CardActions border>
-                //         <Button colored>GitHub</Button>
-                //         <Button colored>LiveDemo</Button>
-                //     </CardActions>
-                //     <CardMenu style={{color: '#fff'}}>
-                //         <IconButton name="share" />
-                //     </CardMenu>
-                // </Card>
-
-                // <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                //     <CardTitle style={{color: '#black', height: '176px', background: 'url(https://riverplacecapital.com/wp-content/uploads/2019/10/sky2-1280x720.jpg) center / cover'}}>React Projects #1</CardTitle>
-                //     <CardText>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</CardText>
-                //     <CardActions border>
-                //         <Button colored>GitHub</Button>
-                //         <Button colored>LiveDemo</Button>
-                //     </CardActions>
-                //     <CardMenu style={{color: '#fff'}}>
-                //         <IconButton name="share" />
-                //     </CardMenu>
-                // </Card>
-
-                // </div>
-                     
-//             )
-//         }else if(this.state.activeTab === 1){
-//             return(
-//                 <div><h1>This is Angular</h1></div>       
-//             )
-//         }else if(this.state.activeTab === 2){
-//             return(
-//                 <div><h1>This is VueJS</h1></div>       
-//             )
-//         }else if(this.state.activeTab === 3){
-//             return (
-//                 <div><h1>This is MongoDB</h1></div>
-//             )
-//         }
-//     }
-
-//     render() {
-//         return(
-//             <div className="category-tabs">
-//                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
-//                     <Tab>React</Tab>
-//                     <Tab>Angular</Tab>
-//                     <Tab>VueJS</Tab>
-//                     <Tab>MongoDB</Tab>
-//                 </Tabs>
-
-//             <Grid>
-//                 <Cell col={12}>
-//                     <div className="content">{this.toggleCategories()}</div>
-//                 </Cell>
-//             </Grid>
-
-//             </div>
-//         )
-//     }
-
-// }

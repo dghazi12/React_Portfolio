@@ -13,17 +13,17 @@ class App extends Component {
     <Layout fixedHeader>
     <Header className="header-color" title={<span><span style={{ color: '#ddd' }}></span><strong>My Portfolio</strong></span>}>
             <Navigation>
+                <Link to="/">Home</Link>
                 <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="My Portfolio">
+        <Drawer title="My Portfolio" className="header-color" >
             <Navigation>
+                <Link to="/">Home</Link>
                 <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
