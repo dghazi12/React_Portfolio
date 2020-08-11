@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
+import profile from '../profile-picture.png'
+
 class Homepage extends Component {
     render() {
         return(
@@ -9,7 +11,8 @@ class Homepage extends Component {
                     <Cell col={12}>
 
                         <img 
-                            src="https://cdn3.iconfinder.com/data/icons/complete-set-icons/512/skype2512x512.png"
+                            src="https://brightguyfilms.com/wp-content/uploads/2016/06/avatar-blank-male.png"
+                            style = {{width: 250, height: 250, borderRadius: 250 / 2}}
                             alt="Profile Picture"
                             className="profile-img"
                         />
@@ -17,11 +20,15 @@ class Homepage extends Component {
                         <div className="social-links">
                             
                             <a href="https://www.linkedin.com/in/davidaghazi/" rel="noopener noreferer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                <i className="fa fa-linkedin" aria-hidden="true" />
+                            </a>
+
+                            <a href="https://dghazi12.github.io/davidaghazi15.github.io/images/Full-Stack%20Resume-pages-1.pdf" rel="noopener noreferer" target="_blank">
+                                <i className="fa fa-file" aria-hidden="true" />
                             </a>
 
                             <a href="https://github.com/dghazi12" rel="noopener noreferer" target="_blank">
-                                <i className="fa fa-github-square" aria-hidden="true" />
+                                <i className="fa fa-github" aria-hidden="true" />
                             </a>
 
                         </div>
