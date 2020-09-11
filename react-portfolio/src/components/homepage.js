@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-import profile from '../profile-picture.png'
+import profile from '../assets/profile-picture.jpeg';
 
 class Homepage extends Component {
     render() {
@@ -9,13 +9,8 @@ class Homepage extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="Home-grid">
                     <Cell col={12}>
-
-                        <img 
-                            src="https://brightguyfilms.com/wp-content/uploads/2016/06/avatar-blank-male.png"
-                            style = {{width: 250, height: 250, borderRadius: 250 / 2}}
-                            alt="Profile Picture"
-                            className="profile-img"
-                        />
+                        
+                        <img src={profile} className="profile-img" alt="profile" />
 
                         <div className="social-links">
                             

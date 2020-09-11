@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl'
+import { Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
+
+import profile from '../assets/profile-picture.jpeg';
 
 class About extends Component {
     render() {
@@ -9,11 +11,11 @@ class About extends Component {
                 
                 <Cell col={6}>
                     <h2>David Ghazi</h2>
-                    <img 
-                        src="https://brightguyfilms.com/wp-content/uploads/2016/06/avatar-blank-male.png"
-                        alt="avatar"
+
+                    <img src={profile} 
+                        alt="profile" 
                         style={{height: '250px'}}
-                    />
+                        />
 
                     <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Hello! My name is David Ghazi. These last 6 months, I have been pursuing a career as a full- stack web developer. 
                     I live in Toronto, ON Canada but have had the pleasure of calling many places my home the last few years. I have built full stack applications using Javascript, 
