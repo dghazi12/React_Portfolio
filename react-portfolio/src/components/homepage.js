@@ -10,7 +10,16 @@ class Homepage extends Component {
                 <Grid className="Home-grid">
                     <Cell col={12}>
                         
-                        <img src={profile} className="profile-img" alt="profile" />
+                        <img src={profile} alt="profile" 
+                            style={{
+                                height: 290,
+                                width: 290,
+                                borderRadius: 290 / 2,
+                                overflow: "hidden",
+                                borderWidth: 3,
+                                borderColor: "red",
+                            }}
+                        />
 
                         <div className="social-links">
                             
@@ -18,7 +27,7 @@ class Homepage extends Component {
                                 <i className="fa fa-linkedin" aria-hidden="true" />
                             </a>
 
-                            <a href="https://dghazi12.github.io/davidaghazi15.github.io/images/Full-Stack%20Resume-pages-1.pdf" rel="noopener noreferer" target="_blank">
+                            <a href="https://docs.google.com/document/d/17IE7tXSfNFH4ZIzMGNix1OhwwpHrekPvjrYr6qzh4Lg/edit" rel="noopener noreferer" target="_blank">
                                 <i className="fa fa-file" aria-hidden="true" />
                             </a>
 

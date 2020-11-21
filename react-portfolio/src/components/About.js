@@ -14,7 +14,14 @@ class About extends Component {
 
                     <img src={profile} 
                         alt="profile" 
-                        style={{height: '250px'}}
+                        style={{
+                            height: 225,
+                            width: 225,
+                            borderRadius: 225 / 2,
+                            overflow: "hidden",
+                            borderWidth: 3,
+                            borderColor: "red"
+                        }}
                         />
 
                     <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Hello! My name is David Ghazi. These last 6 months, I have been pursuing a career as a full- stack web developer. 
