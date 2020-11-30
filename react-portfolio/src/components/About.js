@@ -1,49 +1,80 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
+
+import '../styling/icons.css';
+import SqlSVG  from '../images/SkillsSVG/sqlSVG'
+import HtmlSVG  from '../images/SkillsSVG/htmlSVG'
+import HerokuSVG  from '../images/SkillsSVG/HerokuSVG'
+import GithubSVG  from '../images/SkillsSVG/GithubSVG'
+import CssSVG  from '../images/SkillsSVG/CssSVG'
+import BootstrapSVG  from '../images/SkillsSVG/BootstrapSVG'
+import NodeSVG  from '../images/SkillsSVG/NodeSVG'
+import ReactSVG  from '../images/SkillsSVG/ReactSVG'
+import MongoSVG  from '../images/SkillsSVG/MongoSVG'
+import JQuerySVG  from '../images/SkillsSVG/jQuerySVG'
+import JavascriptSVG  from '../images/SkillsSVG/JavscriptSVG'
+import MaterialSVG  from '../images/SkillsSVG/MaterialSVG'
 
 import profile from '../assets/profile-picture.jpeg';
 
 class About extends Component {
     render() {
         return(
-            <div className="contact-body test">
-                <Grid className="contact-grid test">
+            <Grid className="contact-body">
+                <Grid className="contact-grid">
                 
-                <Cell col={6}>
-                    <h2>David Ghazi</h2>
+                    <Cell col={6}>
+                        <h2>David Ghazi</h2>
 
-                    <img src={profile} 
-                        alt="profile" 
-                        style={{
-                            height: 225,
-                            width: 225,
-                            borderRadius: 225 / 2,
-                            overflow: "hidden",
-                            borderWidth: 3,
-                            borderColor: "red"
-                        }}
-                        />
+                        <img className='about-profile' src={profile} alt="profile image"></img>
 
-                    <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Hello! My name is David Ghazi. These last 6 months, I have been pursuing a career as a full- stack web developer. 
-                    I live in Toronto, ON Canada but have had the pleasure of calling many places my home the last few years. I have built full stack applications using Javascript, 
-                    jQuery, React, MongoDB, MySQL, Express and NodeJS. I am ready to take on new challenges and if you feel I can be an asset, please feel free to contact me!
+                        <p className="about-text">
+                            Full- Stack Web Developer seeking a full or part time position! I have a bachelor's in Engineering from Cape Breton University, 
+                            as well as a Full Stack Development certificate from the University of Toronto. I am currently focusing on React based web applications 
+                            but welcome any challenges/opportunities that come my way. I have built full stack applications using Javascript, jQuery, React, MongoDB, 
+                            MySQL, Express and NodeJS. I am a passionate, hard working individual who is eager to learn and ready to take the next step in my Dev career. 
+                            If you feel I can be an asset, please feel free to contact me!
+                        </p>
+                    </Cell>
+
+                    <Cell className="hide-skills" col={6}>
                     
-                    </p>
-                </Cell>
+                        <h2>Skills</h2>
+                        <hr />
 
-                <Cell col={6}>
-                    <h2>Skills</h2>
-                    <hr />
+                        <Grid >
 
-                    <div className="contact-list">
-                    
-                    </div>
+                            <Grid className="demo-grid-1">
+                                <Cell col={4}><HtmlSVG /></Cell>
+                                <Cell col={4}><CssSVG /></Cell>
+                                <Cell col={4}><HerokuSVG /> </Cell>
+                            </Grid>
 
-                </Cell>
+                            <Grid className="demo-grid-1 layout">
+                                <Cell className="layout" col={4}><JavascriptSVG /></Cell>
+                                <Cell className="layout" col={4}><ReactSVG /></Cell>
+                                <Cell style={{paddingTop: '35px'}} col={4}><BootstrapSVG /></Cell>
+                            </Grid>
+                            
+                            <Grid className="demo-grid-1 layout">
+                                <Cell col={4}><GithubSVG /></Cell>
+                                <Cell col={4}><SqlSVG /></Cell>
+                                <Cell col={4}><MaterialSVG /></Cell>
+                            </Grid>
+
+                            <Grid className="demo-grid-1 layout">
+                                <Cell col={4}><JQuerySVG /></Cell> 
+                                <Cell col={4}><NodeSVG /></Cell>
+                                <Cell col={4}><MongoSVG /></Cell>
+                            </Grid>
+
+                        </Grid>
+
+                    </Cell>
 
                 </Grid>
 
-            </div>
+            </Grid>
         )
     }
 }

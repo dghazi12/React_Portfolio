@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import './styling/App.css';
+
+import '../src/styling/Responsive.css'
 
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 
@@ -12,7 +14,7 @@ class App extends Component {
     <div style={{height: '720px', position: 'relative'}}>
     <Layout fixedHeader>
     <Header className="header-color" title={<span><span style={{ color: '#ddd' }}></span><strong>My Portfolio</strong></span>}>
-            <Navigation>
+            <Navigation className=" hide">
                 <Link to="/">Home</Link>
                 <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>

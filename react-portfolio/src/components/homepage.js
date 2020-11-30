@@ -3,6 +3,8 @@ import { Grid, Cell } from 'react-mdl';
 
 import profile from '../assets/profile-picture.jpeg';
 
+import '../styling/Responsive.css'
+
 class Homepage extends Component {
     render() {
         return(
@@ -10,21 +12,12 @@ class Homepage extends Component {
                 <Grid className="Home-grid">
                     <Cell col={12}>
                         
-                        <img src={profile} alt="profile" 
-                            style={{
-                                height: 290,
-                                width: 290,
-                                borderRadius: 290 / 2,
-                                overflow: "hidden",
-                                borderWidth: 3,
-                                borderColor: "red",
-                            }}
-                        />
+                        <img className='profile-picture' src={profile} alt="profile image"></img>
 
                         <div className="social-links">
                             
                             <a href="https://www.linkedin.com/in/davidaghazi/" rel="noopener noreferer" target="_blank">
-                                <i className="fa fa-linkedin" aria-hidden="true" />
+                                <i className="fa fa-linkedin socialResponsive" aria-hidden="true" />
                             </a>
 
                             <a href="https://docs.google.com/document/d/17IE7tXSfNFH4ZIzMGNix1OhwwpHrekPvjrYr6qzh4Lg/edit" rel="noopener noreferer" target="_blank">
