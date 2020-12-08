@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../styling/icons.css';
+import '../../styling/AboutMe.css';
 
 export default function ReactSVG() {
 

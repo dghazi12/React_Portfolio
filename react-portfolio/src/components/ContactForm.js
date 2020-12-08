@@ -1,5 +1,9 @@
 import emailjs from "emailjs-com";
 import React from 'react';
+import Button from '@material-ui/core/Button';
+
+// import '../styling/App.css';
+import '../styling/Contact.css'
 
 export default function ContactUs() {
 
@@ -17,24 +21,24 @@ export default function ContactUs() {
 
     return(
         <div>
-            <div className="container">
+            <div>
             <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-8 form-group mx-auto">
-                            <input type="text" className="form-control" cols="30" placeholder="Name" name="name"/>
+                            <input type="text" className="form-control name" cols="30" placeholder="Name" name="name"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="email" className="form-control" cols="30" placeholder="Email Address" name="email"/>
+                            <input type="email" className="form-control name" cols="30" placeholder="Email Address" name="email"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="text" className="form-control" cols="30"placeholder="Subject" name="subject"/>
+                            <input type="text" className="form-control name" cols="30"placeholder="Subject" name="subject"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                            <textarea className="form-control message" cols="30" placeholder="Your message" name="message"></textarea>
                         </div>
-                        <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-info" value="Send Message"></input>
-                        </div>
+                        <Button variant="outlined" type="submit" value="Send Message">
+                            Send Message
+                        </Button>
                     </div>
                 </form>
             </div>

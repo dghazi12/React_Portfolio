@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-import '../styling/icons.css';
+import '../styling/AboutMe.css';
 import SqlSVG  from '../images/SkillsSVG/sqlSVG'
 import HtmlSVG  from '../images/SkillsSVG/htmlSVG'
 import HerokuSVG  from '../images/SkillsSVG/HerokuSVG'
@@ -14,14 +14,13 @@ import MongoSVG  from '../images/SkillsSVG/MongoSVG'
 import JQuerySVG  from '../images/SkillsSVG/jQuerySVG'
 import JavascriptSVG  from '../images/SkillsSVG/JavscriptSVG'
 import MaterialSVG  from '../images/SkillsSVG/MaterialSVG'
-
-import profile from '../assets/profile-picture.jpeg';
+import profile from '../images/ProfilePicture/profile-picture.jpeg';
 
 class About extends Component {
     render() {
         return(
-            <Grid className="contact-body">
-                <Grid className="contact-grid">
+            <Grid className="about-body">
+                <Grid className="about-grid">
                 
                     <Cell col={6}>
                         <h2>David Ghazi</h2>
@@ -33,13 +32,14 @@ class About extends Component {
                             as well as a Full Stack Development certificate from the University of Toronto. I am currently focusing on React based web applications 
                             but welcome any challenges/opportunities that come my way. I have built full stack applications using Javascript, jQuery, React, MongoDB, 
                             MySQL, Express and NodeJS. I am a passionate, hard working individual who is eager to learn and ready to take the next step in my Dev career. 
-                            If you feel I can be an asset, please feel free to contact me!
+                            If you believe I can be an asset, please feel free to contact me!
                         </p>
                     </Cell>
 
                     <Cell className="hide-skills" col={6}>
                     
                         <h2>Skills</h2>
+
                         <hr />
 
                         <Grid >

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import { Card, CardTitle, CardText, CardActions, Button, Grid } from 'react-mdl';
-
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -10,16 +8,15 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 
+import '../styling/Projects.css'
 import Sound from '../../src/images/ProjectsImages/OpenSound.jpg'
 import Password from '../../src/images/ProjectsImages/Password.jpg'
 import Quiz from '../../src/images/ProjectsImages/CodeQuiz.jpg'
 import Scheduler from '../../src/images/ProjectsImages/Scheduler.jpg'
-
 import Weather from '../../src/images/ProjectsImages/Weather.jpg'
 import Readme from '../../src/images/ProjectsImages/ReadmeGenerator.jpg'
 import Summary from '../../src/images/ProjectsImages/EmployeeSummary.jpg'
 import Daburger from '../../src/images/ProjectsImages/DaBurger.jpg'
-
 import Tracker from '../../src/images/ProjectsImages/EmployeeTracker.jpg'
 import Note from '../../src/images/ProjectsImages/NoteTaker.png'
 import Workout from '../../src/images/ProjectsImages/WorkoutTracker.jpg'
