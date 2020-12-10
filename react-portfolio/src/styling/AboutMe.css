@@ -1,6 +1,6 @@
 .about-profile {
-    height: 225px;
-    width: 225px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     overflow: hidden;
     border-width: 3;
@@ -8,7 +8,7 @@
   
 .about-text {
     width: 75%; 
-    margin: auto; 
+    margin: 10px auto auto auto; 
     padding-top: 1em;
     font-family: 'Oxygen', sans-serif;
     font-weight: 'bold';
@@ -63,16 +63,9 @@
     padding-bottom: 30px;
 }
 
-/* .size {
+.size {
     width: 80px; 
-    height: 150px;
-} */
-
-@media (max-width: 1250px) {
-    .size {
-        width: 60px; 
-        height: 60px;
-    }
+    height: 80px;
 }
 
 @media (max-width: 1160px) {
@@ -80,6 +73,16 @@
         width: 100%; 
         margin: auto; 
         padding-top: 1em;
+    }
+    .about-profile {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 1006px) {
+    .about-text {
+        font-size: 11px;
     }
 }
 
@@ -93,6 +96,12 @@
     .about-profile {
         height: 200px;
         width: 200px;
+    }
+    .about-text{
+        margin-top: 10px;
+    }
+    .about-grid h2 {
+        font-size: 45px;
     }
 }
 
