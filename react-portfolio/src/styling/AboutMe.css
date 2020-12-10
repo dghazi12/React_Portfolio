@@ -63,10 +63,10 @@
     padding-bottom: 30px;
 }
 
-.size {
+/* .size {
     width: 80px; 
-    height: 80px;
-}
+    height: 150px;
+} */
 
 @media (max-width: 1250px) {
     .size {

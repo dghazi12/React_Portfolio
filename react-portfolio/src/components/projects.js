@@ -10,7 +10,7 @@ import Grid from '@material-ui/core/Grid';
 
 import '../styling/Projects.css'
 import Sound from '../../src/images/ProjectsImages/OpenSound.jpg'
-import Password from '../../src/images/ProjectsImages/Password.jpg'
+import TorontoTech from '../../src/images/ProjectsImages/TorontoTech.jpg'
 import Quiz from '../../src/images/ProjectsImages/CodeQuiz.jpg'
 import Scheduler from '../../src/images/ProjectsImages/Scheduler.jpg'
 import Weather from '../../src/images/ProjectsImages/Weather.jpg'
@@ -62,24 +62,24 @@ class Projects extends Component {
                         <CardActionArea>
                             <CardMedia
                             component="img"
-                            alt="Password Generator Image"
-                            image={Password}
+                            alt="Toronto Tech Image"
+                            image={TorontoTech}
                             className="card-image"
                             />
                             <CardContent className="project-description">
                                 <Typography gutterBottom variant="h5" component="h2">
-                                    Password Generator
+                                    Toronto Tech Mentoring
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Created an application that generates a random password based on user- selected criteria. Password generated may consist of numbers, letters and symbols.
+                                    Helped a team of professional developers create a website aimed at supporting youth in the Greater Toronto Area. This website provides information for volunteers, clients and partners.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="large" color="primary" href="https://github.com/dghazi12/davidaghazi03.github.io" target="_blank">
+                            <Button size="large" color="primary" href="https://github.com/Toronto-Tech-Mentoring/TTM-Website" target="_blank">
                                 GitHub
                             </Button>
-                            <Button size="large" color="primary" href="https://dghazi12.github.io/davidaghazi03.github.io/" target="_blank">
+                            <Button size="large" color="primary" href="https://torontotechmentoring.netlify.app/" target="_blank">
                                 Live Demo
                             </Button>
                         </CardActions>
@@ -374,3 +374,5 @@ class Projects extends Component {
 }
 
 export default Projects;
+
+// 

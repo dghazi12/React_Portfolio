@@ -11,7 +11,7 @@ class Homepage extends Component {
                 <Grid className="Home-grid">
                     <Cell col={12}>
                             
-                        <img className='profile-picture' src={profile} alt="profile image"></img>
+                        <img className='profile-picture' src={profile} alt="profile"></img>
 
                         <div className="social-links">
                                 

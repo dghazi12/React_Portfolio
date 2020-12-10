@@ -25,7 +25,7 @@ class About extends Component {
                     <Cell col={6}>
                         <h2>David Ghazi</h2>
 
-                        <img className='about-profile' src={profile} alt="profile image"></img>
+                        <img className='about-profile' src={profile} alt="profile"></img>
 
                         <p className="about-text">
                             Full- Stack Web Developer seeking a full or part time position! I have a bachelor's in Engineering from Cape Breton University, 

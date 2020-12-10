@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl'
+import { Grid, Cell } from 'react-mdl'
 
 import '../styling/Contact.css'
 import ContactMe from '../components/ContactForm'
