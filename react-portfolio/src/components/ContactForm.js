@@ -2,7 +2,6 @@ import emailjs from "emailjs-com";
 import React from 'react';
 import Button from '@material-ui/core/Button';
 
-// import '../styling/App.css';
 import '../styling/Contact.css'
 
 export default function ContactUs() {
