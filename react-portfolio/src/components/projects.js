@@ -236,11 +236,11 @@ class Projects extends Component {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="large" color="primary" href="https://github.com/dghazi12/davidaghazi10.github.io" target="_blank">
+                        <Button size="large" color="primary" href="https://github.com/dghazi12/davidaghazi13.github.io" target="_blank">
                             GitHub
                             </Button>
-                        <Button size="large" color="primary" href="https://github.com/dghazi12/davidaghazi10.github.io/blob/master/images/EmployeeSummary.gif" target="_blank">
-                            Demo
+                        <Button size="large" color="primary" href="https://ghazi-burger-logger.herokuapp.com/" target="_blank">
+                            Live Demo
                             </Button>
                     </CardActions>
                 </Card>
