@@ -10,20 +10,20 @@ class App extends Component {
     return (
         <div style={{height: '720px', position: 'relative'}}>
             <Layout fixedHeader>
-                <Header className="navbar-color" title={<span><span style={{ color: '#ddd' }}></span><strong>My Portfolio</strong></span>}>
+                <Header className="navbar-color" title={<span><span style={{ color: '#ddd' }}></span><strong className="navbar-title">My Portfolio</strong></span>}>
                     <Navigation className=" hide">
-                        <Link to="/">Home</Link>
-                        <Link to="/about">About Me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link className="navbar-tab" to="/">Home</Link>
+                        <Link className="navbar-tab" to="/about">About Me</Link>
+                        <Link className="navbar-tab" to="/projects">Projects</Link>
+                        <Link className="navbar-tab" to="/contact">Contact</Link>
                     </Navigation>
                 </Header>
-                <Drawer title="My Portfolio" className="navbar-color" >
+                <Drawer className="navbar-tab" title="My Portfolio" className="navbar-color" >
                     <Navigation>
-                        <Link to="/">Home</Link>
-                        <Link to="/about">About Me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link className="navbar-tab" to="/">Home</Link>
+                        <Link className="navbar-tab" to="/about">About Me</Link>
+                        <Link className="navbar-tab" to="/projects">Projects</Link>
+                        <Link className="navbar-tab" to="/contact">Contact</Link>
                     </Navigation>
                 </Drawer>
                 <Content>

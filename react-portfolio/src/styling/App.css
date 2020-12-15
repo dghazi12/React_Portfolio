@@ -3,3 +3,11 @@
   background: -webkit-linear-gradient(to bottom, #434343, #000000);
   background: linear-gradient(to bottom, #434343, #000000); 
 }
+
+.navbar-title {
+  font-family: 'Cinzel', serif;
+}
+
+.navbar-tab {
+  font-family: 'Cinzel', serif;
+}
