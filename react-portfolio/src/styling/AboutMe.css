@@ -1,17 +1,19 @@
 .about-profile {
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
     border-radius: 50%;
     overflow: hidden;
     border-width: 3;
+    object-fit: cover;
 }
   
 .about-text {
-    width: 75%; 
+    width: 80%; 
+    /* height: 60%; */
     margin: 10px auto auto auto; 
     padding-top: 1em;
-    font-family: 'Oxygen', sans-serif;
     font-weight: 'bold';
+    font-family: 'Lora', serif;
 }
 
 .about-body {
@@ -37,7 +39,7 @@
 }
 
 .about-grid h2 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Russo One', sans-serif;
 }
   
 .about-grid hr {
@@ -75,8 +77,8 @@
         padding-top: 1em;
     }
     .about-profile {
-        height: 200px;
-        width: 200px;
+        height: 175px;
+        width: 175px;
     }
 }
 
@@ -107,8 +109,8 @@
 
 @media (max-width: 670px) {
     .about-profile {
-        height: 175px;
-        width: 175px;
+        height: 150px;
+        width: 150px;
     }
 }
 

@@ -22,6 +22,7 @@
     overflow: hidden;
     border-width: 3;
     margin-top: 40px;
+    object-fit: cover;
 }
   
 .banner-text{

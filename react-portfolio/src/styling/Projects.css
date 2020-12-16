@@ -13,6 +13,13 @@
     height: 350px;
     margin: 10px 10px 10px 10px;
     display: inline-block;
+    border: black;
+    border-style: inset;
+    border-width: medium;
+}
+
+.test button{
+    color: black;
 }
   
 .card-image {
