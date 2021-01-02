@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 
 import '../styling/Homepage.css';
 import profile from '../images/ProfilePicture/profile-picture.jpeg';
-import pdf from '../images/PDF/DG_Resume.pdf';
+import PDF from '../images/PDF/DG_Resume.pdf';
 
 class Homepage extends Component {
     render() {
@@ -20,7 +20,7 @@ class Homepage extends Component {
                                     <i className="fa fa-linkedin socialResponsive" aria-hidden="true" />
                             </a>
 
-                            <a href={pdf} rel="noopener noreferer" target="_blank">
+                            <a href={PDF} rel="noopener noreferer" target="_blank">
                                     <i className="fa fa-file" aria-hidden="true" />
                             </a>
 
