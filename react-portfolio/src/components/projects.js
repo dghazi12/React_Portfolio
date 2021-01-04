@@ -356,9 +356,7 @@ class Projects extends Component {
             </Grid>
 
         )
-
     }
-
 }
 
 export default Projects;
