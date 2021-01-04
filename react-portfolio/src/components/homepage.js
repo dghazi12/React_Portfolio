@@ -16,15 +16,15 @@ class Homepage extends Component {
 
                         <div className="social-links">
                                 
-                            <a href="https://www.linkedin.com/in/davidaghazi/" rel="noopener noreferer" target="_blank">
+                            <a href="https://www.linkedin.com/in/davidaghazi/" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin socialResponsive" aria-hidden="true" />
                             </a>
 
-                            <a href={PDF} rel="noopener noreferer" target="_blank">
+                            <a href={PDF} rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-file" aria-hidden="true" />
                             </a>
 
-                            <a href="https://github.com/dghazi12" rel="noopener noreferer" target="_blank">
+                            <a href="https://github.com/dghazi12" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github" aria-hidden="true" />
                             </a>
 

@@ -45,27 +45,27 @@ class About extends Component {
                         <Grid >
 
                             <Grid className="demo-grid-1">
-                                <Cell col={4}><HtmlSVG /></Cell>
+                                <Cell style={{paddingBottom: '10px'}} col={4}><HtmlSVG /></Cell>
                                 <Cell col={4}><CssSVG /></Cell>
                                 <Cell col={4}><HerokuSVG /> </Cell>
                             </Grid>
 
-                            <Grid className="demo-grid-1 layout">
+                            <Grid className="demo-grid-1">
                                 <Cell className="layout" col={4}><JavascriptSVG /></Cell>
                                 <Cell className="layout" col={4}><ReactSVG /></Cell>
-                                <Cell style={{paddingTop: '35px'}} col={4}><BootstrapSVG /></Cell>
+                                <Cell className="layout" col={4}><BootstrapSVG /></Cell>
                             </Grid>
                             
-                            <Grid className="demo-grid-1 layout">
-                                <Cell col={4}><GithubSVG /></Cell>
-                                <Cell col={4}><SqlSVG /></Cell>
-                                <Cell col={4}><MaterialSVG /></Cell>
+                            <Grid className="demo-grid-1">
+                                <Cell className="layout" col={4}><GithubSVG /></Cell>
+                                <Cell className="layout" col={4}><SqlSVG /></Cell>
+                                <Cell className="layout" col={4}><MaterialSVG /></Cell>
                             </Grid>
 
-                            <Grid className="demo-grid-1 layout">
-                                <Cell col={4}><JQuerySVG /></Cell> 
-                                <Cell col={4}><NodeSVG /></Cell>
-                                <Cell col={4}><MongoSVG /></Cell>
+                            <Grid className="demo-grid-1">
+                                <Cell className="layout" col={4}><JQuerySVG /></Cell> 
+                                <Cell className="layout" col={4}><NodeSVG /></Cell>
+                                <Cell className="layout" col={4}><MongoSVG /></Cell>
                             </Grid>
 
                         </Grid>

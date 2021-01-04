@@ -58,16 +58,12 @@
 /* Icons */
 
 .layout {
-    padding-top: 30px;
-}
-
-.layout2 {
-    padding-bottom: 30px;
+    padding-top: 5px;
 }
 
 .size {
-    width: 80px; 
-    height: 80px;
+    width: 75px; 
+    height: 75px;
 }
 
 @media (max-width: 1160px) {
@@ -75,7 +71,6 @@
         width: 100%; 
         margin: auto; 
         padding-top: 1em;
-        /* font-size: 10px; */
     }
     .about-profile {
         height: 175px;

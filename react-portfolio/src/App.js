@@ -18,7 +18,7 @@ class App extends Component {
                         <Link className="navbar-tab" to="/contact">Contact</Link>
                     </Navigation>
                 </Header>
-                <Drawer className="navbar-tab" title="My Portfolio" className="navbar-color" >
+                <Drawer className="navbar-tab, navbar-color" title="My Portfolio" >
                     <Navigation>
                         <Link className="navbar-tab" to="/">Home</Link>
                         <Link className="navbar-tab" to="/about">About Me</Link>
